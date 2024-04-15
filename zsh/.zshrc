@@ -36,5 +36,6 @@ eval "$(tmuxifier init -)"
 alias cd="z"
 alias ls="eza -l -a"
 alias delivery="tmuxifier load-session delivery"
+alias config-dev="tmuxifier load-session config-dev"
 
 PATH=~/.console-ninja/.bin:$PATH
