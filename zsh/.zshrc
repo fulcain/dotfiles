@@ -37,5 +37,5 @@ alias cd="z"
 alias ls="eza -l -a"
 alias delivery="tmuxifier load-session delivery"
 alias config-dev="tmuxifier load-session config-dev"
-
+alias f='fd --type f --hidden --exclude .git | fzf-tmux -p | xargs nvim'
 PATH=~/.console-ninja/.bin:$PATH
