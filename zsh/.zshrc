@@ -40,7 +40,6 @@ alias cd="z"
 alias ls="eza -l -a"
 alias delivery="tmuxifier load-session delivery"
 alias config-dev="tmuxifier load-session config-dev"
-alias f='fd --type d --hidden --exclude .git | fzf | xargs cd'
 alias n='nvim'
 
 # -- Use fd instead of fzf --
