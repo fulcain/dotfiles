@@ -2,11 +2,18 @@
 
 opacity = 1
 
-padding.x = 10
-padding.y = 10
+padding.x = 4
+padding.y = 4
+dynamic_padding = true
+
+startup_mode = "Fullscreen"
 
 decorations = "Full"
 decorations_theme_variant = "Dark" 
+
+dynamic_title = false
+
+option_as_alt = "OnlyLeft"
 
 [font]
 
@@ -15,8 +22,17 @@ bold.family = "CaskaydiaMono Nerd Font Mono"
 italic.family = "CaskaydiaMono Nerd Font Mono"
 bold_italic.family = "CaskaydiaMono Nerd Font Mono"
 
-size = 18.0
+size = 19.0
 
-# Tip: for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
-# Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a 
-# small box when a HEX is detected by the editor.
+[colors]
+
+cursor.cursor = "#ffffff"
+vi_mode_cursor.cursor = "#ffffff"
+
+[cursor]
+
+style.shape = "Beam"
+
+[mouse]
+
+hide_when_typing = true
