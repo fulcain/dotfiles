@@ -31,7 +31,8 @@ vi_mode_cursor.cursor = "#ffffff"
 
 [cursor]
 
-style.shape = "Beam"
+style.shape = "Block"
+style.blinking = "Off"
 
 [mouse]
 
