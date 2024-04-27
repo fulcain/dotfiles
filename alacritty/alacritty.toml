@@ -1,3 +1,6 @@
+[ env ]
+TERM = "xterm-256color"
+
 [window]
 
 opacity = 1
@@ -8,7 +11,8 @@ dynamic_padding = true
 
 startup_mode = "Fullscreen"
 
-decorations = "Full"
+# decorations = "Full"
+decorations = "Buttonless"
 decorations_theme_variant = "Dark" 
 
 dynamic_title = false
@@ -25,6 +29,8 @@ bold_italic.family = "CaskaydiaMono Nerd Font Mono"
 size = 19.0
 
 [colors]
+
+primary.background = "#1a1b26"
 
 cursor.cursor = "#ffffff"
 vi_mode_cursor.cursor = "#ffffff"
