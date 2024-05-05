@@ -19,10 +19,7 @@ option_as_alt = "Both"
 
 [font]
 
-normal.family = "CaskaydiaMono Nerd Font Mono"
-bold.family = "CaskaydiaMono Nerd Font Mono"
-italic.family = "CaskaydiaMono Nerd Font Mono"
-bold_italic.family = "CaskaydiaMono Nerd Font Mono"
+normal.family = "ComicShannsMono Nerd Font"
 
 size = 19.0
 
