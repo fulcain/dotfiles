@@ -6,5 +6,5 @@ include ./keybindings.i3.config
 include ./i3-theme.i3.config
 
 set $mod Mod1
-font pango:Caskaydia Mono Nerd Font 9
+font pango:ComicShannsMono Nerd Font 9
 
