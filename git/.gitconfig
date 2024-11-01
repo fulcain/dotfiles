@@ -1,6 +1,6 @@
 [user]
 	name = Majid Kargar
-	email = <majidkargar01@gmail.com>
+	email = majidkargar01@gmail.com
 
 [core]
 	editor = nvim
