@@ -32,7 +32,6 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 eval "$(zoxide init zsh)"
 eval "$(tmuxifier init -)"
 eval $(thefuck --alias)
-source <(fzf --zsh)
 
 
 # Aliases
@@ -47,16 +46,12 @@ export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always --line-range :500 {}'"
 export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
 
 # fzf theme
-# created using: https://vitormv.github.io/fzf-themes/
-export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
-  --color=fg:#d0d0d0,fg+:#d0d0d0,bg:#121212,bg+:#2e2e2e
-  --color=hl:#aefff1,hl+:#d4ff5e,info:#5fb0a2,marker:#ffffff
-  --color=prompt:#ff0073,spinner:#aefff1,pointer:#aefff1,header:#757575
-  --color=gutter:#343434,border:#ffffff,preview-fg:#ffffff,preview-bg:#000000
-  --color=label:#aefff1,query:#ffffff,disabled:#2e2e2e
-  --border="rounded" --border-label="fuzzy finder" --border-label-pos="0" --preview-window="border-rounded"
-  --padding="1" --prompt="> " --marker=">" --pointer="◆"
-  --separator="─" --scrollbar="|" --info="right"'
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#ccd0da,bg:#eff1f5,spinner:#dc8a78,hl:#d20f39 \
+--color=fg:#4c4f69,header:#d20f39,info:#8839ef,pointer:#dc8a78 \
+--color=marker:#7287fd,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39 \
+--color=selected-bg:#bcc0cc \
+--multi"
 
 # Advanced customization of fzf options via _fzf_comprun function
 # - The first argument to the function is the name of the command.
