@@ -86,3 +86,5 @@ _fzf_compgen_dir() {
 }
 
 PATH=~/.console-ninja/.bin:$PATH
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
