@@ -32,6 +32,7 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 eval "$(zoxide init zsh)"
 eval "$(tmuxifier init -)"
 eval $(thefuck --alias)
+source <(fzf --zsh)
 
 
 # Aliases
