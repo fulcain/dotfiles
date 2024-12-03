@@ -18,6 +18,8 @@ if initialize_session "config-dev"; then
    run_cmd "z setup-unix"
    run_cmd "clear"
 
+   select_window 1
+
 fi
 
 # Finalize session creation and switch/attach to it.
