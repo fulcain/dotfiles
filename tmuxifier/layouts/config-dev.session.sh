@@ -11,15 +11,15 @@ if initialize_session "config-dev"; then
    new_window "setup-unix"
    new_window "nvim"
 
-   select_window 0
+   select_window 1
    run_cmd "z dotfiles"
    run_cmd "clear"
 
-   select_window 1
+   select_window 2
    run_cmd "z setup-unix"
    run_cmd "clear"
 
-   select_window 2
+   select_window 3
    run_cmd "z nvim"
    run_cmd "clear"
 
