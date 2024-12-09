@@ -3,8 +3,8 @@ export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 export NVIM_RUNTIMEPATH="/Users/majidkargar/Coding/lua-plugins/:$NVIM_RUNTIMEPATH"
 
 # import files
-source "/Users/majidkargar/zsh.aliases.sh"
-source "/Users/majidkargar/zsh.fzf.sh"
+source "$HOME/zsh.aliases.sh"
+source "$HOME/zsh.fzf.sh"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
