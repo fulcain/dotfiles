@@ -7,7 +7,7 @@ wezterm.on("gui-startup", function(cmd)
 	window:gui_window():toggle_fullscreen()
 end)
 
-config.font = wezterm.font("ComicShannsMono Nerd Font")
+config.font = wezterm.font_with_fallback({ "ComicShannsMono Nerd Font" })
 config.font_size = 20
 
 config.enable_tab_bar = false
