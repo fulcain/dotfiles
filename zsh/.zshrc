@@ -2,9 +2,6 @@
 export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 export NVIM_RUNTIMEPATH="/Users/majidkargar/Coding/lua-plugins/:$NVIM_RUNTIMEPATH"
 
-# import files
-source "/Users/majidkargar/zsh.aliases.sh"
-source "/Users/majidkargar/zsh.fzf.sh"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -29,6 +26,9 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   export EDITOR='nvim'
 fi
+
+source "/Users/majidkargar/zsh.aliases.sh"
+source "/Users/majidkargar/zsh.fzf.sh"
 
 # User related configs
 export PATH="$HOME/.tmuxifier/bin:$PATH"
