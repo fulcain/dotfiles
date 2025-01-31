@@ -1,9 +1,16 @@
 [user]
 	name = Majid Kargar
 	email = majidkargar01@gmail.com
+	signingkey = 64901C7943E6EA36
 
 [core]
 	editor = nvim
 
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[tag]
+	gpgSign = true
