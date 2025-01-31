@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
-export NVIM_RUNTIMEPATH="/Users/majidkargar/Coding/lua-plugins/:$NVIM_RUNTIMEPATH"
+export NVIM_RUNTIMEPATH="$HOME/Coding/lua-plugins/:$NVIM_RUNTIMEPATH"
 
 # import files
 source "$HOME/zsh.aliases.sh"

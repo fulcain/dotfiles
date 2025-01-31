@@ -1,0 +1,7 @@
+font-size = 28
+window-padding-color = background
+cursor-style = block
+fullscreen = true
+theme = catppuccin-mocha
+font-family = "ComicShannsMono Nerd Font"
+font-feature = -liga
