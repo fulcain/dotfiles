@@ -36,3 +36,7 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 eval "$(zoxide init zsh)"
 eval "$(tmuxifier init -)"
 eval $(thefuck --alias)
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export GPG_TTY=$(tty)
